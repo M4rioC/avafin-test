@@ -1,0 +1,47 @@
+{
+  "ok": 1,
+  "data": {
+    "customer-lastname": {
+      "visible": true,
+      "type": "text",
+      "order": 2,
+      "maxlength": 150,
+      "regex": "^[a-zA-ZĀČĒĢĪĶĻŅŠŪŽāčēģīķļšūžņ\\-\\ ]*$"
+    },
+    "customer-phone": {
+      "visible": true,
+      "order": 3,
+      "maxlength": 50,
+      "type": "text",
+      "regex": "^2[0-9]{7}$"
+    },
+    "customer-monthly-income": {
+      "visible": true,
+      "order": 6,
+      "maxlength": 10,
+      "type": "text",
+      "regex": "^[0-9]+$"
+    },
+    "customer-personcode": {
+      "visible": true,
+      "order": 5,
+      "maxlength": 50,
+      "type": "text",
+      "regex": "^[0-9]{6}-[0-9]{5}$"
+    },
+    "customer-email": {
+      "visible": true,
+      "order": 4,
+      "maxlength": 50,
+      "type": "text",
+      "regex": "^(?:[A-z0-9_%+-]+\\.)*[A-z0-9_%+-]+@[A-z0-9][A-z0-9-]*(?:\\.[A-z]+)+$"
+    },
+    "customer-firstname": {
+      "visible": true,
+      "order": 1,
+      "maxlength": 50,
+      "type": "text",
+      "regex": "^[a-zA-ZĀČĒĢĪĶĻŅŠŪŽāčēģīķļšūžņ\\-\\ ]*$"
+    }
+  }
+}

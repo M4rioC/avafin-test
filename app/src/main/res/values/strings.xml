@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AvaFin Test</string>
+
+    <string name="btn_validate_form">Validate Form</string>
+    <string name="generic_error_message">An error occurred while obtaining information.</string>
+    <string name="message_form_successfully_validated">Form successfully validated</string>
+    <string name="message_form_validation_error">Form validation error</string>
+</resources>
